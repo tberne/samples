@@ -1,0 +1,15 @@
+{
+  "name": "dep-test",
+  "version": "1.0.0",
+  "description": "Node app describing how to auto install required dependencies (i.e. no more manually 'npm install')",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thiago Gagliano Berne",
+  "license": "MIT",
+  "dependencies": {
+    "console": "file:internal_modules\\console",
+    "yargs": "^6.5.0"
+  }
+}
